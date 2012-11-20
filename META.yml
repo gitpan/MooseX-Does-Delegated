@@ -30,4 +30,4 @@ resources:
   homepage: https://metacpan.org/release/MooseX-Does-Delegated
   license: http://dev.perl.org/licenses/
   repository: https://bitbucket.org/tobyink/p5-moosex-does-delegated
-version: 0.001
+version: 0.002
