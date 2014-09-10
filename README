@@ -53,23 +53,21 @@ SYNOPSIS
        done_testing;
 
 DESCRIPTION
-    According to UNIVERSAL the point of "DOES" is that it allows you to
-    check whether an object does a role without caring about *how* it does
-    the role.
+    According to UNIVERSAL the point of `DOES` is that it allows you to check
+    whether an object does a role without caring about *how* it does the role.
 
-    However, the default Moose implementation of "DOES" (which you can of
+    However, the default Moose implementation of `DOES` (which you can of
     course override!) only checks whether the object does the role via
     inheritance or the application of a role to a class.
 
-    This module overrides your object's "DOES" method, allowing it to
-    respond the affirmative to delegated roles. This module is a standard
-    Moose role, so it can be used like this:
+    This module overrides your object's `DOES` method, allowing it to respond
+    the affirmative to delegated roles. This module is a standard Moose role,
+    so it can be used like this:
 
        with qw( MooseX::Does::Delegated );
 
     Alternatively, if you wish to apply this role ubiqitously (i.e. to all
-    Moose objects in your application) - as is your prerogative - you can
-    use:
+    Moose objects in your application) - as is your prerogative - you can use:
 
        use MooseX::Does::Delegated -everywhere;
 
@@ -88,8 +86,8 @@ AUTHOR
 COPYRIGHT AND LICENCE
     This software is copyright (c) 2012 by Toby Inkster.
 
-    This is free software; you can redistribute it and/or modify it under
-    the same terms as the Perl 5 programming language system itself.
+    This is free software; you can redistribute it and/or modify it under the
+    same terms as the Perl 5 programming language system itself.
 
 DISCLAIMER OF WARRANTIES
     THIS PACKAGE IS PROVIDED "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED
